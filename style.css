@@ -1,28 +1,82 @@
-@font-face {
-  font-weight: 400;
-  font-family: "Montserrat";
-  font-style: normal;
-  src: url("fonts/Montserrat-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-weight: 700;
-  font-family: "Montserrat";
-  font-style: normal;
-  src: url("fonts/Montserrat-Bold.woff") format("woff");
-}
-
 html,
 body {
   margin: 0;
   font-family: 'Dangrek', cursive;
 }
 
-/* body {
-  min-width: 430px;
-  border: 2px dashed #c7e4ff;
-} */
+* {
+  margin: 0;
+  padding: 0;
+}
 
+/* HEADER */
+
+.header {
+  background-color: #a840ff;
+  height: 80px;
+}
+
+.wrap {
+  padding: 0 40px;
+}
+
+.header_wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 200%;
+  color: rgb(238, 238, 18);
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu_item {
+  position: relative;
+  margin: 0 20px;
+  font-size: 120%;
+}
+
+.menu_item::before {
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: -5px;
+  left: -20px;
+  margin: 0 20px;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+}
+
+.menu_item:hover::before {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.menu_item a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(238, 238, 18);
+}
+
+
+
+/*  
 html::before,
 body::before,
 header::before,
@@ -130,3 +184,5 @@ aside::before {
 nav::before {
   content: "nav";
 }
+
+*/
