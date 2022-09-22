@@ -48,7 +48,7 @@ body {
   content: "";
   width: 0;
   height: 1px;
-  background-color: rgb(255, 255, 255);
+  background-color: black;
   position: absolute;
   bottom: -5px;
   left: -20px;
@@ -62,11 +62,11 @@ body {
 
 .menu_item:hover::before {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: black;
 }
 
 .menu_item a:hover {
-  color: rgb(255, 255, 255);
+  color: black;
 }
 
 a {
@@ -74,115 +74,46 @@ a {
   color: rgb(238, 238, 18);
 }
 
+/* MAIN */
 
-
-/*  
-html::before,
-body::before,
-header::before,
-footer::before,
-main::before {
-  color: #7fc1ff;
-}
-
-main,
-header,
-footer {
-  background-color: #f3faff;
-  border: 2px solid #7fc1ff;
-}
-
-nav,
-section,
-article,
-aside {
-  background-color: #f9f7ff;
-  border: 2px solid #9779ec;
-}
-
-nav::before,
-section::before,
-article::before,
-aside::before {
-  color: #9779ec;
+main {
+  padding: 20px 40px;
+  background-color: #c6a6e1;
 }
 
 h1 {
-  font-size: 18px;
-  background-color: #ffffff;
-  border: 2px solid #ff994f;
+  text-align: center;
+  color: black;
 }
 
-h1::before {
-  content: "h1";
-  color: #ff994f;
+.intro_wrap {
+  padding: 20px 0;
+  display: flex;
 }
 
-p {
-  background-color: #ffffff;
-  border: 2px solid #f36dff;
+.intro_text {
+  line-height: 2;
+  margin-top: 40px;
+  white-space: inherit;
+  color: black;
 }
 
-p::before {
-  color: #f36dff;
-  content: "p";
+.intro_image {
+  width: 50%;
+  margin-left: 40px;
 }
 
-* {
-  position: relative;
-  padding: 25px 25px 20px;
-  margin: 0;
-  border-radius: 4px;
+.preview-info {
+  width: 50%;
 }
 
-*:not(:last-child) {
-  margin-bottom: 20px;
+/* FOOTER */
+
+.footer {
+  background-color: #a840ff;
+  padding: 30px;
 }
 
-*::before {
-  position: absolute;
-  top: 8px;
-  left: 10px;
-  font-weight: 700;
-  font-size: 11px;
-  line-height: 10px;
-  letter-spacing: 0.04em;
+.footer ul {
+  list-style: none;
 }
-
-html::before {
-  content: "html";
-}
-
-body::before {
-  content: "body";
-}
-
-main::before {
-  content: "main";
-}
-
-header::before {
-  content: "header";
-}
-
-footer::before {
-  content: "footer";
-}
-
-section::before {
-  content: "section";
-}
-
-article::before {
-  content: "article";
-}
-
-aside::before {
-  content: "aside";
-}
-
-nav::before {
-  content: "nav";
-}
-
-*/
