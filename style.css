@@ -17,7 +17,7 @@ body {
 }
 
 .wrap {
-  padding: 0 40px;
+  padding: 0px 40px;
 }
 
 .header_wrap {
@@ -31,6 +31,7 @@ body {
   font-weight: bold;
   font-size: 200%;
   color: rgb(238, 238, 18);
+  text-align: right;
 }
 
 .menu {
@@ -82,8 +83,36 @@ h1 {
   margin-left: 40px;
 }
 
-.preview-info {
+.intro-info {
   width: 50%;
+}
+
+.photos_wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos_title {
+  text-align: center;
+  color: rgb(238, 238, 18);
+  font-size: 150%;
+  /* margin-bottom: 50px; */
+}
+
+.photo {
+  text-align: center;
+  width: 31%;
+  height: 300px;
+  margin: 10px;
+}
+
+.actor_image {
+  width: 250px;
+}
+
+.table_image {
+  width: 150px;
+  vertical-align: middle;
 }
 
 .about_heroes {
@@ -96,12 +125,24 @@ h1 {
 }
 
 .about_heroes_title {
-  text-align: left;
+  text-align: center;
   color: rgb(238, 238, 18);
   font-size: 150%;
   /* margin-bottom: 50px; */
 }
 
+.table {
+  border: 1px solid #a840ff;
+  margin: auto;
+  width: 80%;
+  background-color: #a840ff;
+  /* cell: 0;
+  cellpadding="4" */
+}
+
+.tr {
+  background-color: aliceblue;
+}
 /* FOOTER */
 
 .footer {
@@ -111,4 +152,8 @@ h1 {
 
 .footer ul {
   list-style: none;
+}
+
+.footer_wrap {
+  text-align: center;
 }

@@ -19,8 +19,8 @@
           <nav class="nav">
             <ul class="menu">
               <li class="menu_item"><a href="">Главная</a></li>
-              <li class="menu_item"><a href="#about_heroes">О героях сериала</a></li>
-              <li class="menu_item"><a href="">Актеры</a></li>
+              <li class="menu_item"><a href="#photos">Актеры</a></li>
+              <li class="menu_item"><a href="#about_heroes">О героях сериала</a></li>              
               <li class="menu_item"><a href="#footer-info">Контакты</a></li>
             </ul>
           </nav>
@@ -29,7 +29,7 @@
     </header>
      
     <main>
-
+      <!-- INTRO -->
       <section class="intro">
         <div class="intro_wrap">
           <div class="intro_info">
@@ -45,16 +45,105 @@
         </div>
       </section>
 
-      <section class="about_heroes">
-        <div class="about_heroes_wrap">
-          <h1 class="about_heroes_title" id="about_heroes">О героях сериала</h1>
-          <p>
-            <strong style="color: black; font-size: 120%">Моника Геллер</strong>
-            <br>Моника — младшая сестра Росса Геллера. У неё есть некоторые навязчивые идеи, которые периодически дают о себе знать: 
-            она требует идеального порядка, отличается от всех друзей своим властным характером, не может никому ничего доверить 
-            и хочет всегда быть победителем. Друзья уже привыкли к её странностям и не обращают на них внимания.
-          </p>
+      <!-- ACTORS PHOTOS -->
+      <section>
+        <div class="wrap">
+          <div class="actors_wrap">
+            <h1 class="photos_title" style="margin-top: 50px;" id="photos">Актеры</h1>
+          </div>
+          <div class="photos_wrap">
+            <div class="photo">
+              <p><a href="#monica" style="color: black"><img class="actor_image" src="images/monica.jpg" alt="monica"/></a></p>
+              <p class="photo_name" style="color: black"><a href="#footer-info" style="color: black">Моника Геллер</a></p>
+            </div>
+            <div class="photo">
+              <img class="actor_image" src="images/rachel.jpg" alt="rachel"/>
+              <p class="photo_name">Рейчел Грин</p>
+            </div>
+            <div class="photo">
+              <img class="actor_image" src="images/phoebe.jpg" alt="phoebe"/>
+              <p class="photo_name">Фиби Буффе</p>
+            </div>
+            <div class="photo">
+              <img class="actor_image" src="images/ross.jpg" alt="ross"/>
+              <p class="photo_name">Росс Геллер</p>
+            </div>
+            <div class="photo">
+              <img class="actor_image" src="images/chandler.jpg" alt="chandler"/>
+              <p class="photo_name">Чендлер Бинг</p>
+            </div>
+            <div class="photo">
+              <img class="actor_image" src="images/joey.jpg" alt="joey"/>
+              <p class="photo_name">Джоуи Триббиани</p>
+            </div>
+          </div>
         </div>
+      </section>
+      <!-- ABOUT HEROES -->
+
+      <section>
+        <div class="wrap">
+          <table class="table">
+            <caption class="about_heroes_title" id="about_heroes" style="text-align: center">О героях сериала</caption>
+            <tr style="background-color: #c698ec" id="monica">
+             <th width="400" height="180">Моника Геллер</th>
+             <th width="1200" style="margin: middle"><br>Целеустремленная, уверенная в себе и требовательная Моника, которая всегда все знает, 
+              на самом деле ранимая и нуждающаяся в заботе девушка.</th>
+             <th width="300"><img class="table_image" src="images/monica.jpg" alt="monica" /></th>
+            </tr>
+
+            <tr style="background-color: #eaf086" id="rachel">
+            <th height="180">Рейчел Грин</th>
+             <th style="margin: middle"><br>Из испорченной и неопытной папиной дочки, которая никогда сама не выбрасывала мусор, 
+              Рейчел превращается в успешную безнеследи.</th>
+              <th width="300"><img class="table_image" src="images/rachel.jpg" alt="rachel"/></th>
+            </tr>
+
+            <tr style="background-color: #c698ec" id="phoebe">
+            <th height="180">Фиби Буффе</th>
+             <th style="margin: middle"><br>Иногда совершенно непонятно, чем мотивированы ее поступки, но если копнуть глубже, становится очевидно, 
+              что желанием сделать мир лучше, а людей - счастливее.</th>
+              <th width="300"><img class="table_image" src="images/phoebe.jpg" alt="rachel"/></th>
+            </tr>
+
+            <tr style="background-color: #eaf086" id="ross">
+            <th height="180">Росс Геллер</th>
+             <th style="margin: middle"><br>Самый умный и самый застенчивый персонаж сериала, который, тем не менее, 
+              успел трижды жениться и развестись. Безнадежный романтик.</th>
+              <th width="300"><img class="table_image" src="images/ross.jpg" alt="rachel"/></th>
+            </tr>
+
+            <tr style="background-color: #c698ec" id="chandler">
+            <th height="180">Чендлер Бинг</th>
+             <th style="margin: middle"><br>У Чендлера множество комплексов, от которых он отгораживается шутками, 
+              но его язвительные замечания - один из лучших аспектов сериала.</th>
+              <th width="300"><img class="table_image" src="images/chandler.jpg" alt="rachel"/></th>
+            </tr>
+
+            <tr style="background-color: #eaf086" id="joye">
+            <th height="180">Джоуи Триббиани</th>
+             <th style="margin: middle"><br>Человек, у которого самый сложный в жизни выбор обычно стоит между девушкой и едой, 
+              мечтает стать знаменитым актером.</th>
+              <th width="300"><img class="table_image" src="images/joey.jpg" alt="rachel"/></th>
+            </tr>
+           </table>
+        </div>
+      </section>
+      
+
+      <!-- <section class="about_heroes">
+        <div class="about_heroes_wrap">
+          <h1 class="about_heroes_title">О героях сериала</h1>
+          <ul class="about_heroes_list">
+            <li>
+              <p>
+                <strong style="color: black; font-size: 120%">Моника Геллер</strong>
+                <br>Целеустремленная, уверенная в себе и требовательная Моника, которая всегда все знает, 
+                на самом деле ранимая и нуждающаяся в заботе девушка.
+              </p>
+            </li>
+           </ul>
+        </div> -->
 
       </section>
     </main>
