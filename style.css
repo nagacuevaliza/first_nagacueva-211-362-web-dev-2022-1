@@ -29,9 +29,10 @@ body {
 
 .logo {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 260%;
   color: rgb(238, 238, 18);
   text-align: right;
+  margin-bottom: 0px;
 }
 
 .menu {
@@ -64,6 +65,14 @@ main {
 h1 {
   text-align: center;
   color: black;
+  font-size: 150%;
+}
+
+.hr {
+  border: none;
+  background-color: rgb(238, 238, 18); 
+  color: rgb(238, 238, 18); 
+  height: 3px; 
 }
 
 .intro_wrap {
@@ -87,9 +96,18 @@ h1 {
   width: 50%;
 }
 
+.actors {
+  margin-top: 30px;
+}
+
+.actors.wrap {
+  margin-top: 30px;
+}
+
 .photos_wrap {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .photos_title {
@@ -108,14 +126,21 @@ h1 {
 
 .actor_image {
   width: 250px;
+  border-radius: 5%;
+}
+
+.photo_name {
+  color: black;
 }
 
 .table_image {
   width: 150px;
   vertical-align: middle;
+  border-radius: 5%;
 }
 
 .about_heroes {
+  margin-top: 30px;
   padding: 20px 0;
 }
 
@@ -126,14 +151,18 @@ h1 {
 
 .about_heroes_title {
   text-align: center;
-  color: rgb(238, 238, 18);
+  color: black;
   font-size: 150%;
+  /* text-decoration: underline; */
+  /* border: 1px; */
+  /* text-decoration-thickness: 4px; */
   /* margin-bottom: 50px; */
 }
 
 .table {
   border: 1px solid #a840ff;
   margin: auto;
+  margin-top: 30px;
   width: 80%;
   background-color: #a840ff;
   /* cell: 0;
@@ -141,7 +170,7 @@ h1 {
 }
 
 .tr {
-  background-color: aliceblue;
+  background-color: #eaf086;
 }
 /* FOOTER */
 
